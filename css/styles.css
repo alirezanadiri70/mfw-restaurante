@@ -114,46 +114,12 @@ nav.navbar{
     z-index: -1;
     position: absolute;
     color: rgba(149,147,147,0.2);
+    max-width:95px;
+    
    
 }
-@media screen and (max-width:954px){
-    .story_year{
-        font-size: 180px;
-    }
-}
-@media screen and (max-width:890px){
-    .story_year{
-        font-size: 170px;
-    }
-}
-@media screen and (max-width:954px){
-    .story_year{
-        font-size: 180px;
-    }
-}
-@media screen and (max-width:860px){
-    .story_year{
-        font-size: 150px;
-    }
-}
-@media screen and (max-width:789px){
-    .story_year{
-        position: absolute;
-        left:30%;
-    }
-}
-@media screen and (max-width:493px){
-    .story_year{
-        position: absolute;
-        left:20%;
-    }
-}
-@media screen and (max-width:393px){
-    .story_year{
-        position: absolute;
-        left:10%;
-    }
-}
+
+
 
 /* REVIEW section */
 #review{
@@ -272,3 +238,55 @@ address{
     margin-top: 50px;
     margin-bottom: 25px;
 }
+@media screen and (max-width:954px){
+    .story_year{
+        font-size: 180px;
+    }
+}
+@media screen and (max-width:890px){
+    .story_year{
+        font-size: 170px;
+    }
+}
+@media screen and (max-width:954px){
+    .story_year{
+        font-size: 180px;
+    }
+}
+@media screen and (max-width:860px){
+    .story_year{
+        font-size: 150px;
+    }
+}
+@media screen and (max-width:789px){
+    .story_year{
+        position: absolute;
+        left:30%;
+    }
+}
+@media screen and (max-width:493px){
+    .story_year{
+        position: absolute;
+        left:20%;
+    }
+}
+@media screen and (max-width:393px){
+    .story_year{
+        position: absolute;
+        left:10%;
+    }
+}
+/* @media (min-width:429px){
+    .story_year{
+        position: absolute; 
+        left: 5rem;
+    }
+
+}
+@media (max-width:844px){
+    .story_year{
+        position: absolute; 
+        left: 18rem;
+    }
+
+} */
