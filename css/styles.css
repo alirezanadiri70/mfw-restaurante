@@ -7,8 +7,8 @@
 }
 
 
-#our_story, #review,#menu,#contact{
-    min-height: 300px;
+#our_story, #review,#menu{
+     min-height: 400px;
 }
 /* NAV section */
 .nav li a:hover{
@@ -97,6 +97,10 @@ nav.navbar{
    font-size: 6em;
    text-shadow: 1px 1px 5px #0a0a0a;
 }
+.story_year{
+    position: relative;
+    left: 90px;
+}
 #our_story h3{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -114,9 +118,6 @@ nav.navbar{
     z-index: -1;
     position: absolute;
     color: rgba(149,147,147,0.2);
-    max-width:95px;
-    
-   
 }
 
 
@@ -150,6 +151,7 @@ nav.navbar{
 }
 
 /* MENU SECTION */
+
 #menu{
     background-image: url('../img/black_linen.png');
     background-size: cover;
@@ -204,7 +206,7 @@ nav.navbar{
     border: 1px solid #fff;
 }
 .contact_form form{
-    padding: 5% 0;
+    padding: 20px;
 
 }
 .contact_form span{
@@ -212,6 +214,7 @@ nav.navbar{
 }
 #contact{
     background-color: #f8512f;
+    height: 650px;
 }
 #contact h1{
     font-family: 'Raleway', sans-serif;
@@ -228,35 +231,51 @@ nav.navbar{
 #contact_fine_print{
     font-size: 12px !important;
     text-align: center;
+    margin-top: 5px;
+}
+.map{
+    position: relative;
+    top: 120px;
 }
 address{
-    color: #fff;
     font-family: 'Raleway',sans-serif;
     font-weight: 300;
+    position: absolute;
 }
 .contact_bottom{
-    margin-top: 50px;
-    margin-bottom: 25px;
+    position: relative;
+    top:120px;
+    left: 90px;
 }
+
+
 @media screen and (max-width:954px){
     .story_year{
         font-size: 180px;
     }
 }
-@media screen and (max-width:890px){
-    .story_year{
-        font-size: 170px;
+@media screen and (max-width:960px){
+    .media-story{
+        position: relative;
+        left:
+    
     }
 }
-@media screen and (max-width:954px){
+@media screen and (max-width:959px){
     .story_year{
         font-size: 180px;
+    }
+    .media-story{
+        position: relative;
+        left: 15%;
+        display: inline-block;
     }
 }
 @media screen and (max-width:860px){
     .story_year{
         font-size: 150px;
     }
+    
 }
 @media screen and (max-width:789px){
     .story_year{
@@ -275,18 +294,22 @@ address{
         position: absolute;
         left:10%;
     }
-}
-/* @media (min-width:429px){
-    .story_year{
-        position: absolute; 
-        left: 5rem;
+    .media-story{
+        position: relative;
+        left: 2%;
     }
-
 }
-@media (max-width:844px){
-    .story_year{
-        position: absolute; 
-        left: 18rem;
+@media screen and (max-width:1091px){
+    .menu_height{
+        height: 588px;
+        }
+}
+@media screen and (max-width:755px){
+    #contact{
+        height: 1100px;
     }
-
-} */
+    .map , .contact_bottom{
+        position: relative;
+        top: 5px;
+    }
+}
